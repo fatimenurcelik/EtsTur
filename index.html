@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/6bbff7c573.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Profile Searching</title>
+  </head>
+
+  <body>
+    <header class="container">
+        <span> 
+            <a class="flex-item" href="index.html"><img class="logo" src="images/ucuzabilet.png"></a>
+            <i class="menu-toggle-btn fa-solid fa-bars"></i>
+        </span>
+        <div class="lLinks navLinks">
+            <ul>
+                <li class="flex-item"><a href="index.html"><i class="fa-solid fa-plane"></i>&nbsp; UÇAK &nbsp;</a></li>
+                <li class="flex-item"><a href="index.html"><i class="fa-solid fa-hotel"></i>&nbsp; OTEL &nbsp;</a></li>
+            </ul>
+        </div>
+        <div class="rLinks navLinks">
+            <ul>
+                <li class="flex-item"><a href="index.html"> Online İşlemler</a></li>
+                <li class="flex-item"><a href="index.html"><i class="fa-regular fa-user"></i>&nbsp; Giriş Yap / Üye Ol &nbsp;</a></li>
+                <li class="flex-item"><img src="images/bayrak.png" class="flag"><a href="index.html"> TRY</a><img src="" alt=""></li>
+            </ul>
+        </div>
+       
+    </header>
+
+    <div class="information container">
+        <div class="info-left">
+            <h3 class="info-text"><b>Alaturka Pansiyon&nbsp;&nbsp;</b></h3>
+            <p class="info-p">Anasayfa/Antalya Otelleri/Belek Otelleri/Alaturka Pansiyon</p>
+            <p style="padding-top: 0.5em;"><i class="fa-solid fa-location-dot"></i>&nbsp; Kemer Göynük, Antalya</p>
+        </div>
+        <div class="info-right">
+            <ul>
+                <li class="flex-item"><a href="index.html"><i class="fa-solid fa-share-nodes"></i>&nbsp; Paylaş &nbsp;</a></li>
+                <li class="flex-item"><a href="index.html"><i class="fa-regular fa-heart"></i>&nbsp; Beğen &nbsp;</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="images/deniz.jpg" style="width:100% ; height: 27em;" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+            </div>
+            <div class="col">
+                <img src="images/14.jpg" style="width:100%; height: 12.8em; margin-bottom: 1.5em;" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                <div class="row">
+                    <div class="col">
+                        <img src="images/15.jpg"style="width:100%; height: 12.7em;" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                    </div>
+                    <div class="col">
+                        <img src="images/5.jpg" style="width:100% ; height: 12.7em;" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                        <div class="centered">
+                            <button onclick="openModal();currentSlide(4)" class="btn Foto"><b>+14 Fotoğraf</b></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 18</div>
+            <img src="images/deniz.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">2 / 18</div>
+            <img src="images/14.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">3 / 18</div>
+            <img src="images/15.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">4 / 18</div>
+            <img src="images/5.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">5 / 18</div>
+            <img src="images/1.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">6 / 18</div>
+            <img src="images/2.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">7 / 18</div>
+            <img src="images/3.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">8 / 18</div>
+            <img src="images/4.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">9 / 18</div>
+            <img src="images/6.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">10 / 18</div>
+            <img src="images/7.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">11 / 18</div>
+            <img src="images/8.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">12 / 18</div>
+            <img src="images/9.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">13 / 18</div>
+            <img src="images/10.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">14 / 18</div>
+            <img src="images/11.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">15 / 18</div>
+            <img src="images/12.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">16 / 18</div>
+            <img src="images/13.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">17 / 18</div>
+            <img src="images/16.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">18 / 18</div>
+            <img src="images/17.jpg" style="width:100%">
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+        </div>
+      </div>
+
+    <div class="container text-center" style="padding-top: 1.5em;">
+        <div class="row">
+          <div class="col">
+            <p><b>Oda Seçenekleri</b></p>
+          </div>
+          <div class="col">
+            <p><b>Genel Bilgi</b></p>
+          </div>
+          <div class="col">
+            <p><b>Tesis Olanakları</b></p>
+          </div>
+          <div class="col">
+            <p><b>Detaylı Bilgi</b></p>
+          </div>
+          <div class="col">
+            <p><b>Yorumlar</b></p>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+    <div class="container">
+        <dix class="row">
+            <div class="col-4">
+                <h5><b>Kemer</b></h5>
+                <p style="color: rgb(116, 116, 116);">Antalya, Türkiye</p>
+            </div>
+            <div class="col-2 ">
+                <p><i class="fa-regular fa-calendar"></i>&nbsp;&nbsp;24 Haz.21</p>
+                <p style="color: rgb(116, 116, 116);">Perşembe</p>
+            </div>
+            <div class="col-2 ">
+                <p><i class="fa-regular fa-calendar"></i>&nbsp;&nbsp;27 Haz.21</p>
+                <p style="color: rgb(116, 116, 116);">Salı</p>
+            </div>
+            <div class="col-1 divCenter moon">
+                <i class="fa-solid fa-moon"></i>
+                <p style="color: rgb(116, 116, 116); margin-top: 0.5em;">4 Gece</p>
+            </div>
+            <div class="col-1 divCenter">
+                <p>3 Kişi</p>
+                <p style="color: rgb(116, 116, 116);">1 Oda</p>
+            </div>
+            <div class="col-2">
+                <button class="button btn"><b>ARA</b></button>
+            </div>
+        </dix>
+        <br>
+    </div>
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-8 genelBilgi">
+                <h5 style="text-align: left;"><b>Genel Bilgi</b></h5>
+                <div class="row" style="padding-top: 1em;">
+                    <div class="col">
+                        <p>&nbsp;<i class="fa-solid fa-child"></i>&nbsp;&nbsp;&nbsp;Çocuk Dostu</p>
+                        <p><i class="fa-solid fa-umbrella-beach"></i>&nbsp;&nbsp;&nbsp;Özel Plaj</p>
+                    </div>
+                    <div class="col">
+                       <p><i class="fa-solid fa-question"></i>&nbsp;&nbsp;Denizi Kum</p>
+                       <p><i class="fa-solid fa-question"></i>&nbsp;&nbsp;Güvenli Turizm Sertifikalı Otel</p>
+                    </div>
+                </div>
+                <p><br>
+                    Yüksek kalite standartlarıyla donatılmış olan Kilikya Palace Göynük, aynı zamanda yer aldığı
+                     mevkii itibariyle sit alanları ve antik bölgelere oldukça yakın konumda yer alıyor. <br><br>Akdeniz 
+                     ile çam ağaçlarının buluştuğu Toros Dağları'nın eteklerindeki tesis, eşsiz manzarasıyla da 
+                     görülmeye değer. Tesiste entegre yönetim sistemi bulunmaktadır.<br><br>Yüksek kalite standartlarıyla
+                      donatılmış olan Kilikya Palace Göynük, aynı zamanda yer aldığı mevkii itibariyle sit alanları
+                     ve antik bölgelere oldukça yakın konumda yer alıyor. Akdeniz ile çam ağaçlarının buluştuğu 
+                     Toros Dağları'nın eteklerindeki tesis, eşsiz manzarasıyla da görülmeye değer. Tesiste entegre
+                     yönetim sistemi bulunmaktadır.
+                    </p>
+            </div>
+            <div class="col-4">
+                <p class="miniBox"><i class="fa-solid fa-circle-check"></i><b>&nbsp;Güvenli Turizm Sertifikalı Tesis</b></p><br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.9407144093802!2d30.457737981010606!3d36.38918131922194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c236ea43243e19%3A0x6e0f980171e65023!2sOlympos%20Alaturka%20Pansiyon!5e0!3m2!1str!2str!4v1664880561294!5m2!1str!2str" width="400" height="300" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="margin-top: 1rem;">
+        <h4><b>Oda Seçenekleri</b></h4><br>
+        <div class="card firstcard">
+        <div class="row">
+            <div class="col-6" style="padding:auto ;">
+                <div class="row">
+                    <div class="col">
+                        <img src="images/kara.jpg" alt="" width="250px" height="230px" class="kara">
+                    </div>
+                    <div class="col">
+                        <br>
+                        <h5><b>Superior Kara Manzaralı</b></h5><br>
+                        <p><i class="fa-solid fa-bed"></i>&nbsp;Çift Kişilik Tek Geniş Yatak</p>
+                        <p><i class="fa-solid fa-users"></i>&nbsp;3 kişilik</p>
+                        <p><i class="fa-regular fa-square"></i>&nbsp;80 m'2</p>
+                        <a href="">Detaylı Oda Bilgisi&nbsp;<i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card secondCard">
+                    <div class="row" style="margin-right: 30px; margin-left: 30px;">
+                        <div class="col">
+                            <p>&nbsp;&nbsp;<i class="fa-solid fa-utensils"></i>&nbsp;&nbsp;Oda Kahvaltı</p>
+                            <p class="options">&nbsp;&nbsp;<i class="fa-solid fa-child-reaching"></i>&nbsp;&nbsp;0-6 Yaş 1 Çocuk Ücretsiz</p>
+                            <p class="options">&nbsp;&nbsp;<i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Ücretsiz İptal</p>
+                        </div>
+                        <div class="col" style="text-align: right;">
+                            <p style="color: rgba(0, 0, 0, 0.637);">3 gece için Toplam</p>
+                            <h5 style="padding-right: 10px;"><b>1900 TL</b></h5>
+                            <button type="button" class="btn selectRoom"><b>ODAYI SEÇ</b></button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container" style="margin-top: 1rem;">
+        <div class="card firstcard">
+        <div class="row">
+            <div class="col-6" style="padding:auto ;">
+                <div class="row">
+                    <div class="col">
+                        <img src="images/family.jpg" alt="" width="250px" height="230px" class="kara">
+                    </div>
+                    <div class="col">
+                        <br>
+                        <h5><b>Superior Family Plus</b></h5><br>
+                        <p><i class="fa-solid fa-bed"></i>&nbsp;Çift Kişilik Tek Geniş Yatak</p>
+                        <p><i class="fa-solid fa-users"></i>&nbsp;3 kişilik</p>
+                        <p><i class="fa-regular fa-square"></i>&nbsp;80 m'2</p>
+                        <a href="">Detaylı Oda Bilgisi&nbsp;<i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card secondCard">
+                    <div class="row" style="margin-right: 30px; margin-left: 30px;">
+                        <div class="col">
+                            <p>&nbsp;&nbsp;<i class="fa-solid fa-utensils"></i>&nbsp;&nbsp;Oda Kahvaltı</p>
+                            <p class="options">&nbsp;&nbsp;<i class="fa-solid fa-child-reaching"></i>&nbsp;&nbsp;0-6 Yaş 1 Çocuk Ücretsiz</p>
+                            <p class="options">&nbsp;&nbsp;<i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Ücretsiz İptal</p>
+                        </div>
+                        <div class="col" style="text-align: right;">
+                            <p style="color: rgba(0, 0, 0, 0.637);">3 gece için Toplam</p>
+                            <h5 style="padding-right: 10px;"><b>1900 TL</b></h5>
+                            <button type="button" class="btn selectRoom"><b>ODAYI SEÇ</b></button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container" style="margin-top: 1rem;">
+        <div class="card firstcard">
+        <div class="row">
+            <div class="col-6" style="padding:auto ;">
+                <div class="row">
+                    <div class="col">
+                        <img src="images/deniz.jpg" alt="" width="250px" height="230px" class="kara">
+                    </div>
+                    <div class="col">
+                        <br>
+                        <h5><b>Deniz Manzaralı</b></h5><br>
+                        <p><i class="fa-solid fa-bed"></i>&nbsp;Çift Kişilik Tek Geniş Yatak</p>
+                        <p><i class="fa-solid fa-users"></i>&nbsp;3 kişilik</p>
+                        <p><i class="fa-regular fa-square"></i>&nbsp;80 m'2</p>
+                        <a href="">Detaylı Oda Bilgisi&nbsp;<i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card secondCard">
+                    <div class="row" style="margin-right: 30px; margin-left: 30px;">
+                        <div class="col">
+                            <p>&nbsp;&nbsp;<i class="fa-solid fa-utensils"></i>&nbsp;&nbsp;Oda Kahvaltı</p>
+                            <p class="options">&nbsp;&nbsp;<i class="fa-solid fa-child-reaching"></i>&nbsp;&nbsp;0-6 Yaş 1 Çocuk Ücretsiz</p>
+                            <p class="options">&nbsp;&nbsp;<i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Ücretsiz İptal</p>
+                        </div>
+                        <div class="col" style="text-align: right;">
+                            <p style="color: rgba(0, 0, 0, 0.637);">3 gece için Toplam</p>
+                            <h5 style="padding-right: 10px;"><b>1900 TL</b></h5>
+                            <button type="button" class="btn selectRoom"><b>ODAYI SEÇ</b></button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container" style="margin-top: 3rem; margin-bottom: 3rem;">
+        <div class="row">
+            <div class="col">
+                <div class="card cardDetail">
+                    <span>
+                        <i class="fa-regular fa-square fa-xl"></i>
+                        <div class="toggle"><i class="fa-sharp fa-solid fa-caret-down toggle"></i></div>
+                    </span>
+                    <h5>BÜYÜKLÜK BİLGİSİ</h5>
+                    <p class="detail">1.040.500 m '2 alan üzerine kurulu tesisin 530 odası bulunuyor.</p>
+                </div>
+                <br>
+                <div class="card cardDetail">
+                    <span>
+                        <i class="fa-solid fa-ring fa-xl"></i>
+                        <div class="toggle"><i class="fa-sharp fa-solid fa-caret-down toggle"></i></div>
+                    </span>
+                    <h5>BALAYI</h5>
+                    <p class="detail">
+                        Odaya Meyve tabağı ve köpüklü şarap <br>
+                        Odaya gazete servisi <br>
+                        Turn down servisi <br>
+                        Konaklama sırasında uygun olan bir gün için odaya kahvaltı ikramı (balayı çiftlerinin arzu ettikleri saati, bir gün önceden Misafir İlişkileri Departmanı'na bildirmeleri gerekiyor.)<br>
+                        Anjana Spa'da %20 indirim fırsatı <br>
+                        Oda süslemesi <br>
+                        Giriş gününde odaya çikolata tabağı ikramı <br>
+                        Odaya canlı çiçek<br>
+                        A la carte rezervasyonlarda öncelik hakkı, masa süslemeleri<br>
+                        İstenen bir günde İtalyan veya Balık a la carte restoranlarında yemek ikramı
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card cardDetail">
+                    <span>
+                        <i class="fa-solid fa-person-swimming fa-xl"></i>
+                        <div class="toggle"><i class="fa-sharp fa-solid fa-caret-down toggle"></i></div>
+                    </span>
+                    <h5>DENİZ & HAVUZ</h5>
+                    <p class="detail">
+                        Mavi Bayraklı <br> 
+                        Kum Plaj <br> 
+                        Açık Havuz <br> 
+                        Kapalı Havuz <br> 
+                        Çocuk Havuzu <br> 
+                        Kapalı Çocuk Havuzu</p>
+                </div>
+                <br>
+                <div class="card cardDetail">
+                    <span>
+                        <i class="fa-solid fa-utensils fa-xl"></i>
+                        <div class="toggle"><i class="fa-sharp fa-solid fa-caret-down toggle"></i></div>
+                    </span>
+                    <h5>YEME & İÇME</h5>
+                    <p class="detail">
+                        07.00-10.00 Kahvaltı <br>
+                        10.00-11.00 Geç Kahvaltı<br>
+                        10.00-12.00 Starbucks<br>
+                        10.00-22.00 Tuzlu ve Tatlı Kuru Pasta, Dondurma (Pastane)<br>
+                        11.00-16.00 Gözleme <br>
+                        12.30-14.00 Öğle Yemeği<br>
+                        12.00-16.00 A la Carte Snack (Pizza, Hamburger, Tavuk Çevirme, Kumpir, Cheeseburger ve Makarna, Salata Büfesi, Sütlü Tatlılar, Mevsim Meyveleri)<br>
+                        14.00-16.00 Starbucks<br>
+                        16.00-18.00 Waffle<br>
+                        19.00-21.00 A la Carte Restoranlar <br>
+                        19.00-21.00 Akşam Yemeği<br>
+                        23.00-23.45 Gece Çorbası<br>
+                        00.00-06.00 Gece Yemeği (Kahvaltı Menüsü)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        const cardDetail = document.querySelectorAll(".cardDetail");
+        const toggle = document.querySelectorAll(".toggle");
+        for (let index = 0; index < cardDetail.length; index++) {
+            cardDetail[index].onclick = function(){
+                cardDetail[index].classList.toggle("active");
+            }
+        };
+
+        function openModal() {
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+
+        const navLinks = document.querySelectorAll(".navLinks");
+        const toggleBtn = document.querySelectorAll(".menu-toggle-btn");
+        toggleBtn.onclick = function(){
+                toggleBtn.classList.navLinks("active");
+        }
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>
